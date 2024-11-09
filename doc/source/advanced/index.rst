@@ -1,11 +1,11 @@
+========
 Advanced
 ========
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    logging
    proxy
-   smart_scraping
-   persistent_cache
+   caching
    multi_level_columns

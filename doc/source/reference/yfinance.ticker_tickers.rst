@@ -15,6 +15,22 @@ The `Ticker` module, allows you to access ticker data in a Pythonic way.
    Ticker
    Tickers
 
+Financials
+----------
+
+.. autosummary::
+   :toctree: api/
+   :recursive:
+
+   Ticker.get_income_stmt
+   Ticker.income_stmt
+
+   Ticker.get_balance_sheet
+   Ticker.balance_sheet
+
+   Ticker.get_cashflow
+   Ticker.cashflow
+
 
 Sample Code
 ------------

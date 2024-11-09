@@ -39,7 +39,10 @@ html_title = 'yfinance'
 html_theme = 'pydata_sphinx_theme'
 html_theme_options = {
     "github_url": "https://github.com/ranaroussi/yfinance",
-    "navbar_align": "left"
+    "navbar_align": "left",
+    "show_nav_level": 1,
+    "navigation_depth": 2,
+    "show_toc_level": 2
 }
 html_static_path = ['_static']
 html_css_files = ['yfinance.css']
