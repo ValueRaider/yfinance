@@ -19,20 +19,6 @@ Download Market Data from Yahoo! Finance's API
    for details on your rights to use the actual data downloaded.
    Remember - the Yahoo! finance API is intended for personal use only.
 
-.. .. toctree::
-..    :maxdepth: 3
-..    :hidden:
-..    :titlesonly:
-
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-   :titlesonly:
-
-   user_guide/index
-   reference/index
-   development/index
-
 Quick Start
 -----------
 
@@ -65,4 +51,15 @@ Quick Start
    # analysis
    dat.analyst_price_targets
 
-That's just a sample - see :doc:`user_guide/index` or :doc:`reference/index` for everything.
+.. .. toctree::
+..    :maxdepth: 3
+..    :hidden:
+..    :titlesonly:
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+   advanced/index
+   reference/index
+   development/index
