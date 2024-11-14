@@ -9,8 +9,3 @@
    :recursive:
 
    FundsData
-
-.. autoclass:: FundsData
-   :members:
-   :undoc-members:
-   :special-members:

@@ -5,38 +5,25 @@
 .. currentmodule:: {{ module }}
 
 .. autoclass:: {{ objname }}
-   
+
    {% block methods %}
    {% if methods %}
    .. rubric:: Methods
-   .. autosummary::
-      :toctree: .
-      {% for item in methods %}
-      {{ objname }}.{{ item }}
-      {%- endfor %}
+
+   {% for item in methods %}
+   .. automethod:: {{ module }}.{{ objname }}.{{ item }}
+      :no-index:
+   {%- endfor %}
    {% endif %}
-   {% endblock %}
+   {% endblock methods %}
 
    {% block attributes %}
    {% if attributes %}
    .. rubric:: Attributes
-   .. autosummary::
-      :toctree: .
-      {% for item in attributes %}
-      {{ objname }}.{{ item }}
-      {%- endfor %}
-   {% endif %}
-   {% endblock %}
-
-   Method Details
-   -------------
    
-   .. automethod:: __init__
-   
-   {% block methods_details %}
-   {% if methods %}
-   {% for item in methods %}
-   .. automethod:: {{ item }}
+   {% for item in attributes %}
+   .. autoattribute:: {{ module }}.{{ objname }}.{{ item }}
+      :no-index:
    {%- endfor %}
    {% endif %}
-   {% endblock %}
+   {% endblock attributes %}

@@ -4,8 +4,8 @@ Stock
 
 .. currentmodule:: yfinance.Ticker
 
-Analysis
---------
+Stock methods
+-------------
 
 .. autosummary::
    :toctree: api/
