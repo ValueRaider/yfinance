@@ -28,6 +28,7 @@ The following are the publicly available classes, and functions exposed by the `
    :hidden:
 
 
+   yfinance.ticker_tickers
    yfinance.stock
    yfinance.financials
    yfinance.analysis
